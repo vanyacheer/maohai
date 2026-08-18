@@ -7,8 +7,8 @@ export const localContent: SiteContent = {
     line: "@petoxyhome",
     lineHref: "https://line.me/R/ti/p/@petoxyhome",
     email: "service@petoxy-home.com",
-    address: "台中市西屯區寵愛路 88 號",
-    hours: "週一至週日 09:00 - 21:00（節慶不打烊）",
+    address: "台中市西屯區",
+    hours: "週一至週日 09:00 - 23:00（節慶不打烊）",
   },
   products: [
     {
