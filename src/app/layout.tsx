@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     siteName: "毛孩呼吸",
     title: "毛孩呼吸｜犬貓居家氧氣機租借",
     description: defaultDescription,
-    images: [{ url: "/images/maohai-logo.jpg", width: 295, height: 342, alt: "毛孩呼吸 Pet Oxygen" }],
+    images: [{ url: "/images/maohai-logo.png", width: 295, height: 342, alt: "毛孩呼吸 Pet Oxygen" }],
   },
   twitter: {
     card: "summary",
     title: "毛孩呼吸｜犬貓居家氧氣機租借",
     description: defaultDescription,
-    images: ["/images/maohai-logo.jpg"],
+    images: ["/images/maohai-logo.png"],
   },
 };
 

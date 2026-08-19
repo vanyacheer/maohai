@@ -9,7 +9,7 @@ const nav = [
 
 export function Header() {
   return <header className="site-header"><div className="nav-wrap">
-    <Link className="brand" href="/" aria-label="毛孩呼吸首頁"><Image src="/images/maohai-logo.jpg" alt="毛孩呼吸 Pet Oxygen" width={64} height={64} priority /><span><strong>毛孩呼吸</strong><small>PET OXYGEN</small></span></Link>
+    <Link className="brand" href="/" aria-label="毛孩呼吸首頁"><Image src="/images/maohai-logo.png" alt="毛孩呼吸 Pet Oxygen" width={64} height={64} priority /><span><strong>毛孩呼吸</strong><small>PET OXYGEN</small></span></Link>
     <nav className="desktop-nav" aria-label="主選單">{nav.map(([href, label]) => <Link key={href} href={href}>{label}</Link>)}</nav>
     <Link className="nav-cta" href="/contact">立即諮詢</Link>
     <details className="mobile-menu"><summary aria-label="開啟選單"><i></i><i></i><i></i></summary><nav>{nav.map(([href, label]) => <Link key={href} href={href}>{label}</Link>)}</nav></details>
@@ -19,7 +19,7 @@ export function Header() {
 export function Footer({ content }: { content: SiteContent }) {
   const { contact } = content;
   return <footer className="site-footer"><div className="footer-grid">
-    <div className="footer-brand"><Image src="/images/maohai-logo.jpg" alt="毛孩呼吸" width={86} height={86} /><p>讓每一次呼吸，都安心在家完成。提供犬貓居家氧氣治療與氧氣機租借，陪伴毛孩每一次穩定的呼吸。</p></div>
+    <div className="footer-brand"><Image src="/images/maohai-logo.png" alt="毛孩呼吸" width={86} height={86} /><p>讓每一次呼吸，都安心在家完成。提供犬貓居家氧氣治療與氧氣機租借，陪伴毛孩每一次穩定的呼吸。</p></div>
     <div><h3>關於我們</h3><Link href="/about">品牌介紹</Link><Link href="/faq">常見問題</Link><Link href="/blog">衛教部落格</Link></div>
     <div><h3>服務項目</h3><Link href="/products">產品介紹</Link><Link href="/rental">租借方案</Link><Link href="/contact">聯絡我們</Link></div>
     <div><h3>聯絡方式</h3><a href={contact.phoneHref}>{contact.phone}</a><a href={contact.lineHref}>LINE：{contact.line}</a><a href={`mailto:${contact.email}`}>{contact.email}</a><span>{contact.address}</span></div>
