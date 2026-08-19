@@ -2,8 +2,8 @@ import type { SiteContent } from "./types";
 
 export const localContent: SiteContent = {
   contact: {
-    phone: "0800-123-456",
-    phoneHref: "tel:0800123456",
+    phone: "0985-318-037",
+    phoneHref: "tel:0985318037",
     line: "@petoxyhome",
     lineHref: "https://line.me/R/ti/p/@petoxyhome",
     email: "service@petoxy-home.com",
