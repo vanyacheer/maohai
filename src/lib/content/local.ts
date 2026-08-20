@@ -15,7 +15,7 @@ export const localContent: SiteContent = {
       slug: "everflo",
       name: "EverFlo「磊仕」氧氣濃縮機",
       label: "經典居家型",
-      image: "/images/everflo.png",
+      image: "/images/everflo-q.jpg",
       rent: 2500,
       noise: "約 45 dBA（典型值）",
       license: "衛署醫器輸字第 018363 號",
